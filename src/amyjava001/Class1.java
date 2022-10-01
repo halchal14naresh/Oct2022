@@ -18,6 +18,8 @@ public class Class1 {
 	ar.add("Kumar");
 	ar.add("Yadavaaa");
 	 System.out.println(ar.toString().replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(" ", "").trim());
+	 System.out.println("Chnaged By Poonam");
+		
  }
 
 }
