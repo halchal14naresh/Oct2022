@@ -16,7 +16,7 @@ public class Class1 {
 	 ArrayList<String> ar = new ArrayList<String>();
 	 ar.add("Naresh");
 	ar.add("Kumar");
-	ar.add("Yadava");
+	ar.add("Yadavaaa");
 	 System.out.println(ar.toString().replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(" ", "").trim());
  }
 
