@@ -22,6 +22,7 @@ static public void myStatic(){
 		
 
 		System.out.println("SAMOSA");
+		
 		Parent1 par = new MyChild();
 		
 	 
