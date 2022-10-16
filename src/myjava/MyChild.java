@@ -21,7 +21,7 @@ static public void myStatic(){
 		// Parent can hold child but child can not hold parent
 		
 
-		System.out.println("SAMOSA");
+		System.out.println("PIZZA");
 		Parent1 par = new MyChild();
 		
 	 
