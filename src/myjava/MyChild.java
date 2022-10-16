@@ -15,26 +15,9 @@ static public void myStatic(){
 	}
  
 
-	public static void main(String[] args) {
-		
-		
-		// Parent can hold child but child can not hold parent
-		
-
-<<<<<<< HEAD
-		System.out.println("SAMOSA");
-		
-=======
-		System.out.println("PIZZA");
->>>>>>> refs/remotes/origin/main/poonam/auto001
+	public static void main(String[] args) {	
 		Parent1 par = new MyChild();
-		
-	 
-		
-		
-		
-		
-		
+		System.out.println("SAMOSA");		
 	}
 
 }
