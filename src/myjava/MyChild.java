@@ -21,13 +21,14 @@ static public void myStatic(){
 		// Parent can hold child but child can not hold parent
 		
 
-<<<<<<< HEAD
-		System.out.println("SAMOSA");
+ 
 		
-=======
+
 		System.out.println("PIZZA");
->>>>>>> refs/remotes/origin/main/poonam/auto001
+
 		Parent1 par = new MyChild();
+		
+		System.out.println("PIZZA HI RAHEGA");
 		
 	 
 		
