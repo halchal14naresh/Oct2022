@@ -15,6 +15,7 @@ static public void myStatic(){
 	}
  
 
+<<<<<<< HEAD
 	public static void main(String[] args) {
 		
 		
@@ -26,7 +27,11 @@ static public void myStatic(){
 
 		System.out.println("PIZZA");
 
+=======
+	public static void main(String[] args) {	
+>>>>>>> refs/remotes/origin/main/naresh/auto002
 		Parent1 par = new MyChild();
+<<<<<<< HEAD
 		
 		System.out.println("PIZZA HI RAHEGA");
 		
@@ -36,6 +41,9 @@ static public void myStatic(){
 		
 		
 		
+=======
+		System.out.println("SAMOSA");		
+>>>>>>> refs/remotes/origin/main/naresh/auto002
 	}
 
 }
