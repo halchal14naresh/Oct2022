@@ -3,17 +3,28 @@
 <suite name="Suite"  >
  
  
+ 
+<!--  <groups>  
+<run>  
+<include name="Regression"/>  
+</run>  
+</groups>   -->
+
  <test name="Chrome">
-	<parameter name="mypara" value="chrome"></parameter>
+
  
-		<classes>
-			<class name="amyjava001.Class1" />
- 
+	<parameter name="abc" value="2536"></parameter>
+		<parameter name="browserType" value="IE"></parameter>
+ 		<classes>
+		    <class name="amyjava001.BrowserLaunch" />
+			<class name="amyjava001.Domains" />
+			<class name="amyjava001.Protocols" />		 
 			
-			
+	 
 		</classes>
 	</test>
+	
+	
+	
  
-
-
 </suite>
