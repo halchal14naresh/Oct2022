@@ -1,5 +1,10 @@
 package myjava;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class Parent1 {
 	int i=50;
 	
@@ -15,7 +20,16 @@ static public void myStatic(){
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		WebDriverManager.chromedriver().setup();
+		//WebDriver driver = new ChromeDriver();
+ 		
+		//WebDriver driver1 = new ChromeDriver(); // Which browser will launch ?
+		
+		// Selenium ka Word 
+		// in Java team - Class , Method , 
+		// WebDriver ? Interface 
+		// Object - NO
+		
 
 	}
 
